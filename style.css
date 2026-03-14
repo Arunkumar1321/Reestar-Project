@@ -1,0 +1,71 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.section-two,
+.section-three,
+.section-four,
+.section-five {
+    display: inline-block;
+    width: 160px;
+    margin-top: 10px;
+    border: black solid 3px;
+}
+.section-two{
+    margin-left: 400px;
+}
+.section-two__image,.section-three__image,.section-four__image,.section-five__image{
+    width: 160px;
+    height: 300px;
+}
+.containner{
+    margin-top: 10px;
+    padding: 20px;
+}
+.section-one{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.section-one__desc{
+    color: rgb(102, 100, 100);
+}
+.section-six{
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.section-six__button{
+    background-color: yellow;
+    color: black;
+    padding-top :5px ;
+    padding-bottom:5px ;
+    width: 250px;
+    margin-right: 230px;
+    border: none;
+
+}
+.section-six table{
+    margin-left: 600px ;
+}
+.section-six input{
+    margin-right: 250px;
+}
+.section-two__title,.section-three__title,.section-four__title,.section-five__title{
+    text-align: center;
+}
+.section-two__desc,.section-three__desc,.section-four__desc,.section-five__desc{
+    text-align: center;
+    margin-top: 5px;
+}
+.section-two__button,.section-three__button,.section-four__button,.section-five__button{
+    margin-left: 38px;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+}
